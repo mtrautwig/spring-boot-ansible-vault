@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-parent</artifactId>
+		<version>2.0.7.RELEASE</version>
+		<relativePath/>
+	</parent>
+
+	<groupId>de.trautwig.spring</groupId>
+	<artifactId>spring-boot-ansible-vault</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>spring-boot-ansible-vault</name>
+	<description>Spring Boot Configuration Properties Encryption with "ansible-vault"</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<organization />
+
+	<developers>
+		<developer>
+			<name>Marcus Trautwig</name>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git@github.com:mtrautwig/spring-boot-ansible-vault.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:mtrautwig/spring-boot-ansible-vault.git</developerConnection>
+		<url>https://github.com/mtrautwig/spring-boot-ansible-vault</url>
+	</scm>
+
+	<issueManagement>
+		<system>Github</system>
+		<url>https://github.com/mtrautwig/spring-boot-ansible-vault/issues</url>
+	</issueManagement>
+</project>

@@ -1,0 +1,8 @@
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+de.trautwig.spring.boot.ansible.vault.AnsibleVaultEnvironment
+
+# Ansible Vault Password Sources
+de.trautwig.spring.boot.ansible.vault.AnsibleVaultPasswordSource=\
+de.trautwig.spring.boot.ansible.vault.AnsibleVaultFilePasswordSource,\
+de.trautwig.spring.boot.ansible.vault.AnsibleVaultPropertyPasswordSource
